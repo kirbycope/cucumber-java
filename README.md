@@ -17,7 +17,7 @@
 1. Install [NodeJS](https://nodejs.org/en/) LTS
 1. [Android] Install [Android Studio](https://developer.android.com/studio) and [create an AVD](https://developer.android.com/studio/run/managing-avds)
 1. Clone this repo
-1. Open [`cucumber-java`](/) using [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+1. Open `cucumber-java` using [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 1. Select "Terminal" from the bottom toolbar
 1. Run `npm i appium`
 1. In the "Project" pane, right-click `pom.xml` and then select "Maven > Reload Project" to install dependencies
