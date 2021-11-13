@@ -1,6 +1,6 @@
 package features.steps;
 
-import features.AppiumTestData;
+import features.TestData;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.cucumber.java.After;
@@ -12,13 +12,13 @@ public class commonAppiumSteps {
     @Before
     public void beforeScenario() {
         AppiumServiceBuilder serviceBuilder = new AppiumServiceBuilder();
-        AppiumTestData.appiumServer = AppiumDriverLocalService.buildService(serviceBuilder);
-        AppiumTestData.appiumServer.start();
+        TestData.appiumServer = AppiumDriverLocalService.buildService(serviceBuilder);
+        TestData.appiumServer.start();
     }
 
     @After
     public void afterScenario(){
-        AppiumTestData.webDriver.quit();
+        TestData.webDriver.quit();
     }
 
     @Then("I should see a message saying {string}")
