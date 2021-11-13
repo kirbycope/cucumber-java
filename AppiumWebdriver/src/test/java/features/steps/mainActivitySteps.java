@@ -12,7 +12,7 @@ public class mainActivitySteps {
     }
 
     @When("I send a message saying {string}")
-    public void iSendAMessageSayingMessage(String message) {
+    public void iSendAMessageSayingMessage(String message) throws InterruptedException {
         MainActivity.sendMessage(message);
     }
 
