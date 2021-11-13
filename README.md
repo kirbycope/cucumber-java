@@ -21,7 +21,7 @@
 1. Select "Terminal" from the bottom toolbar
 1. Run `npm i appium`
 1. In the "Project" pane, right-click `pom.xml` and then select "Maven > Reload Project" to install dependencies
-1. In the "Project" pane, right-click `cucumber-java` create a new file called `.env`
+1. In the "Project" pane, right-click `SeleniumWebdriver` create a new file called `.env`
 1. Copy+Paste the following
    ```
    TEST_BASE_URL=https://the-internet.herokuapp.com
