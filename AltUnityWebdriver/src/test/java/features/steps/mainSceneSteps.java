@@ -1,32 +1,27 @@
 package features.steps;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.en.Given;
+
+import features.TestData;
+import features.scenes.MainScene;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import ro.altom.altunitytester.AltUnityDriver;
+import ro.altom.altunitytester.AltUnityObject;
+import ro.altom.altunitytester.Commands.FindObject.AltFindObjectsParameters;
+import ro.altom.altunitytester.Commands.FindObject.AltWaitForObjectsParameters;
 
 public class mainSceneSteps {
 
-    @Before
-    public static void beforeScenario() {
-        //AltUnityPortForwarding.forwardAndroid();
-        //altUnityDriver = new AltUnityDriver();
-    }
-
-    @After
-    public static void afterScenario() {
-        //altUnityDriver.stop();
-        //AltUnityPortForwarding.removeForwardAndroid();
-    }
-
     @When("I start running and pause")
-    public void iStartRunningAndPause() {
-
+    public void iStartRunningAndPause() throws InterruptedException {
+        MainScene.StartRunThenPause();
     }
 
     @Then("I should see the Pause Menu")
     public void iShouldSeeThePauseMenu() {
-
+        AltFindObjectsParameters altFindObjectsParameters = new AltFindObjectsParameters.Builder(AltUnityDriver.By.NAME, "Exit").build();
+        AltWaitForObjectsParameters altWaitForObjectsParameters = new AltWaitForObjectsParameters.Builder(altFindObjectsParameters).build();
+        AltUnityObject panelElement = TestData.altUnityDriver.waitForObject(altWaitForObjectsParameters);
+        assert panelElement.isEnabled();
     }
 
 }

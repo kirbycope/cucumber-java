@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18e5d04a-11c1-4b8c-8f84-7fe655f1b80c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/scenes/MainScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/commonAltUnitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/commonAltUnitySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/mainSceneSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/mainSceneSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +43,12 @@
       <recent name="C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-java\SeleniumWebdriver\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-java\AltUnityWebdriver\src\test\resources" />
       <recent name="C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-java\AltUnityWebdriver\src\test" />
       <recent name="C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-java\AppiumWebdriver\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: mainActivity">
+  <component name="RunManager" selected="Cucumber Java.Feature: mainScene">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/SeleniumWebdriver/src/test/java/features/login.feature" />
@@ -88,8 +87,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: mainScene" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/mainScene.feature" />
+      <option name="GLUE" value="features.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AltUnityWebdriver" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: mainScene" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: mainScene" />
         <item itemvalue="Cucumber Java.Feature: mainActivity" />
         <item itemvalue="Cucumber Java.Feature: login" />
       </list>
