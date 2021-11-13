@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00b2fc5-2f00-4b75-a7f6-d1a845362728" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/appiumWebdriver/java/features/activities/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AltUnityTesterLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appiumWebdriver/java/features/AppiumTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appiumWebdriver/java/features/AppiumTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appiumWebdriver/java/features/steps/commonAppiumSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appiumWebdriver/java/features/steps/commonAppiumSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appiumWebdriver/java/features/steps/mainActivitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appiumWebdriver/java/features/steps/mainActivitySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumWebdriver/java/features/steps/commonSeleniumSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seleniumWebdriver/java/features/steps/commonSeleniumSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
       <recent name="C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: login">
+  <component name="RunManager" selected="Cucumber Java.Feature: mainActivity">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/seleniumWebdriver/java/features/login.feature" />
@@ -59,6 +63,25 @@
       <module name="cucumber-java" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: mainActivity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/appiumWebdriver/java/features/mainActivity.feature" />
+      <option name="GLUE" value="features.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-java" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: mainActivity" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -92,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: mainActivity" />
         <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Scenario: As a user, I can log into the secure area" />
       </list>
