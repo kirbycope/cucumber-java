@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18e5d04a-11c1-4b8c-8f84-7fe655f1b80c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/commonAltUnitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/commonAltUnitySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/mainSceneSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/mainSceneSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,5 +132,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
