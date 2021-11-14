@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="18e5d04a-11c1-4b8c-8f84-7fe655f1b80c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/commonAltUnitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AltUnityWebdriver/src/test/java/features/steps/commonAltUnitySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppiumWebdriver/src/test/java/features/steps/commonAppiumSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumWebdriver/src/test/java/features/steps/commonAppiumSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
       <recent name="C:\Users\kirby\OneDrive\Documents\GitHub\cucumber-java\AppiumWebdriver\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: mainScene">
+  <component name="RunManager" selected="Cucumber Java.Feature: mainActivity">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/SeleniumWebdriver/src/test/java/features/login.feature" />
@@ -105,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: mainScene" />
         <item itemvalue="Cucumber Java.Feature: mainActivity" />
+        <item itemvalue="Cucumber Java.Feature: mainScene" />
         <item itemvalue="Cucumber Java.Feature: login" />
       </list>
     </recent_temporary>

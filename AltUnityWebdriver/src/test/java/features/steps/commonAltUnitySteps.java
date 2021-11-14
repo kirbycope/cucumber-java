@@ -3,17 +3,19 @@ package features.steps;
 import features.TestData;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import ro.altom.altunitytester.AltUnityDriver;
 import ro.altom.altunitytester.AltUnityPortForwarding;
 import ro.altom.altunitytester.Commands.UnityCommand.AltLoadSceneParameters;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -22,14 +24,15 @@ public class commonAltUnitySteps {
 
     @BeforeAll
     public static void beforeAll() {
-        //AppiumServiceBuilder serviceBuilder = new AppiumServiceBuilder();
-        //TestData.appiumServer = AppiumDriverLocalService.buildService(serviceBuilder);
-        //TestData.appiumServer.start();
+        AppiumServiceBuilder serviceBuilder = new AppiumServiceBuilder();
+        serviceBuilder.withAppiumJS(new File("C:\\Users\\kirby\\OneDrive\\Documents\\GitHub\\cucumber-java\\node_modules\\appium"));
+        TestData.appiumServer = AppiumDriverLocalService.buildService(serviceBuilder);
+        TestData.appiumServer.start();
     }
 
     @AfterAll
     public static void afterAll() {
-        //TestData.appiumServer.stop();
+        TestData.appiumServer.stop();
     }
 
     @Before
